@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RedSocial09.Modulo;
+﻿using RedSocial09.Modulo;
 using Xamarin.Forms;
 
 namespace RedSocial09

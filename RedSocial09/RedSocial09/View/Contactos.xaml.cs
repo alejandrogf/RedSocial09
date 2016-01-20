@@ -2,9 +2,9 @@
 
 namespace RedSocial09.View
 {
-    public partial class Registro : ContentPage
+    public partial class Contactos : ContentPage
     {
-        public Registro()
+        public Contactos()
         {
             InitializeComponent();
         }

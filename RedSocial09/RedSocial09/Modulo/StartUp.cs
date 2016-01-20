@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Autofac;
-using RedSocial09.Factoria;
+﻿using Autofac;
+using MVVMLibrary.Factoria;
+using MVVMLibrary.ModuloBase;
 using RedSocial09.View;
 using RedSocial09.ViewModel;
 using Xamarin.Forms;
@@ -33,6 +29,8 @@ namespace RedSocial09.Modulo
             viewFactory.Register<LoginViewModel, Login>();
             viewFactory.Register<RegistroViewModel, Registro>();
             viewFactory.Register<PrincipalViewModel, Principal>();
+            viewFactory.Register<BuscarContactoViewModel, Contactos>();
+            viewFactory.Register<EnviarMensajeViewModel, Mensajes>();
         }
 
         protected override void ConfigureApplication(IContainer container)

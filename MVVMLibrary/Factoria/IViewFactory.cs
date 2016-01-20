@@ -1,12 +1,13 @@
 ﻿using System;
-using RedSocial09.ViewModel.Base;
+using MVVMLibrary.ViewModel.Base;
 using Xamarin.Forms;
+
 /*
 Hay que instalar el nuGet AutoFac que permite gestionar y automatizar la gestión de inyeccion de dependencias
 Luego se crea este interface se encarga de construir vistas su trabajo es hacer que el contenedor de inyeccion 
 de depencias sepa que vista va con que viewmodel y hacer todas las relaciones
 */
-namespace RedSocial09.Factoria
+namespace MVVMLibrary.Factoria
 {
     public interface IViewFactory
     {

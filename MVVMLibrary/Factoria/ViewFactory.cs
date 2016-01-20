@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Autofac;
-using RedSocial09.ViewModel.Base;
+using MVVMLibrary.ViewModel.Base;
 using Xamarin.Forms;
 
-namespace RedSocial09.Factoria
+namespace MVVMLibrary.Factoria
 {
     public class ViewFactory : IViewFactory
     {

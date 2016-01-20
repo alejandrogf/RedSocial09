@@ -4,9 +4,9 @@
              x:Class="RedSocial09.View.Principal">
   <StackLayout Orientation="Vertical">
 
-    <Button Text="{Binding BuscarContactos}" Command="{Binding cmdBuscarCont}" 
+    <Button Text="{Binding BuscarContactos}" Command="{Binding cmdContactos}" 
             BackgroundColor="Green" TextColor="White"></Button>
-    <Button Text="{Binding EnviarMensaje}" Command="{Binding cmdEnviarMsj}" 
+    <Button Text="{Binding EnviarMensajes}" Command="{Binding cmdMensajes}" 
             BackgroundColor="Navy" TextColor="White"></Button>
     
   </StackLayout>

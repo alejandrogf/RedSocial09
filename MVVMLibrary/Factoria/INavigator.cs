@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RedSocial09.ViewModel.Base;
+using MVVMLibrary.ViewModel.Base;
 
-namespace RedSocial09.Factoria
+namespace MVVMLibrary.Factoria
 {
     //Interfaz para manejar todas las operaciones de push y pop, para navegar por las pantallas
     public interface INavigator

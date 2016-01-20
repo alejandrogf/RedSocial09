@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace RedSocial09.Factoria
+namespace MVVMLibrary.Factoria
 {//Define el comportamiento de una determinada página
     public interface IPage
     {

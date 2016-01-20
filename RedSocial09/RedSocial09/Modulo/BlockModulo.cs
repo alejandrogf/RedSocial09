@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Autofac;
 using RedSocial09.Service;
 using RedSocial09.View;
@@ -21,10 +17,13 @@ namespace RedSocial09.Modulo
             builder.RegisterType<Login>();
             builder.RegisterType<Principal>();
             builder.RegisterType<Registro>();
+            builder.RegisterType<Contactos>();
+            builder.RegisterType<Mensajes>();
             builder.RegisterType<LoginViewModel>();
             builder.RegisterType<PrincipalViewModel>();
             builder.RegisterType<RegistroViewModel>();
-
+            builder.RegisterType<EnviarMensajeViewModel>();
+            builder.RegisterType<BuscarContactoViewModel>();
 
             //Es una funcion como las de javascript de var = function.....
             builder.RegisterInstance<Func<Page>>(() =>

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.ComponentModel;
+
 // Se crea una interface, que luego se implementará en un viewmodel base, con las tareas que queremos que sean
 //comunes a todos los viewmodel
 
-namespace RedSocial09.ViewModel.Base
+namespace MVVMLibrary.ViewModel.Base
 {
     //Hereda de la clase que notifica cuando una propiedad de un elemento ha cambiado
     public interface IViewModel : INotifyPropertyChanged

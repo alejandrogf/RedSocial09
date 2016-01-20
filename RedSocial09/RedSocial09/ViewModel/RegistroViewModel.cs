@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using RedSocial09.Factoria;
+﻿using System.Windows.Input;
+using MVVMLibrary.Factoria;
 using RedSocial09.Model;
 using RedSocial09.Service;
 using Xamarin.Forms;

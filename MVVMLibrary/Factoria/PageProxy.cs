@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
+
 //Necesitamos un mecanismo que nos devuelva el contexto de navegacion para la página actual.
-namespace RedSocial09.Factoria
+namespace MVVMLibrary.Factoria
 {
     public class PageProxy : IPage
     {

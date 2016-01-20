@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Autofac;
-using RedSocial09.Factoria;
+﻿using Autofac;
+using MVVMLibrary.Factoria;
 
-namespace RedSocial09.Modulo
+namespace MVVMLibrary.ModuloBase
 {
     public abstract class AutofacBootstraper
     {

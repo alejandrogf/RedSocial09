@@ -1,6 +1,6 @@
-﻿using RedSocial09.Factoria;
+﻿using MVVMLibrary.Factoria;
+using MVVMLibrary.ViewModel.Base;
 using RedSocial09.Service;
-using RedSocial09.ViewModel.Base;
 
 namespace RedSocial09.ViewModel
 {
